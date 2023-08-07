@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssh"
+akbarvpn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ssh"
 # Link Hosting Kalian Untuk Sstp
-akbarvpnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/sstp"
+akbarvpnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/sstp"
 # Link Hosting Kalian Untuk Ssr
-akbarvpnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssr"
+akbarvpnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-akbarvpnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/shadowsocks"
+akbarvpnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-akbarvpnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/wireguard"
+akbarvpnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/xray"
 # Link Hosting Kalian Untuk Ipsec
-akbarvpnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ipsec"
+akbarvpnnnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ipsec"
 # Link Hosting Kalian Untuk Backup
-akbarvpnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/backup"
+akbarvpnnnnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/backup"
 # Link Hosting Kalian Untuk Websocket
-akbarvpnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/websocket"
+akbarvpnnnnnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/websocket"
 # Link Hosting Kalian Untuk Ohp
-akbarvpnnnnnnnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ohp"
+akbarvpnnnnnnnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
