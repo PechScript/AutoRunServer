@@ -18,7 +18,7 @@ clear
 # By Akbar Maulana
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssh"
+akbarvpn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ssh"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
