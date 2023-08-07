@@ -14,16 +14,16 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/ssh"
+akbarvpn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/ssh"
 
 # Link Hosting Kalian Untuk Xray
-akbarvpnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/xray"
+akbarvpnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/xray"
 
 # Link Hosting Kalian Untuk Trojan Go
-akbarvpnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/trojango"
+akbarvpnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/trojango"
 
 # Link Hosting Kalian Untuk Stunnel5
-akbarvpnnnn="raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/stunnel5"
+akbarvpnnnn="raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/stunnel5"
 
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -390,7 +390,7 @@ netfilter-persistent reload
 cd /usr/bin
 wget -O addhost "https://${akbarvpn}/addhost.sh"
 wget -O about "https://${akbarvpn}/about.sh"
-wget -O menu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/menu.sh"
 wget -O addssh "https://${akbarvpn}/addssh.sh"
 wget -O trialssh "https://${akbarvpn}/trialssh.sh"
 wget -O delssh "https://${akbarvpn}/delssh.sh"
@@ -433,21 +433,21 @@ wget -O addtrgo "https://${akbarvpnnn}/addtrgo.sh"
 wget -O deltrgo "https://${akbarvpnnn}/deltrgo.sh"
 wget -O renewtrgo "https://${akbarvpnnn}/renewtrgo.sh"
 wget -O cektrgo "https://${akbarvpnnn}/cektrgo.sh"
-wget -O portsshnontls "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/websocket/portsshnontls.sh"
-wget -O portsshws "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/websocket/portsshws.sh"
+wget -O portsshnontls "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/websocket/portsshnontls.sh"
+wget -O portsshws "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/websocket/portsshws.sh"
 
-wget -O sshovpnmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/sshovpn.sh"
-wget -O l2tpmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/l2tpmenu.sh"
-wget -O pptpmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/pptpmenu.sh"
-wget -O sstpmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/sstpmenu.sh"
-wget -O wgmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/wgmenu.sh"
-wget -O ssmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/ssmenu.sh"
-wget -O ssrmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/ssrmenu.sh"
-wget -O vmessmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/vmessmenu.sh"
-wget -O vlessmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/vlessmenu.sh"
-wget -O trmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/trmenu.sh"
-wget -O trgomenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/trgomenu.sh"
-wget -O setmenu "https://raw.githubusercontent.com/PechScript/PechVPN-Manager/PechVPN/update/setmenu.sh"
+wget -O sshovpnmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/sshovpn.sh"
+wget -O l2tpmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/l2tpmenu.sh"
+wget -O pptpmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/pptpmenu.sh"
+wget -O sstpmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/sstpmenu.sh"
+wget -O wgmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/wgmenu.sh"
+wget -O ssmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/ssmenu.sh"
+wget -O ssrmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/ssrmenu.sh"
+wget -O vmessmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/vmessmenu.sh"
+wget -O vlessmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/vlessmenu.sh"
+wget -O trmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/trmenu.sh"
+wget -O trgomenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/trgomenu.sh"
+wget -O setmenu "https://raw.githubusercontent.com/PechScript/AutoRunServer/PechVPN/update/setmenu.sh"
 
 
 chmod +x portsshnontls
