@@ -1,2 +1,0 @@
-# AutoRunServer
-AutoRunServer VPS
