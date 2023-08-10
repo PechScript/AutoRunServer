@@ -20,7 +20,7 @@ source /etc/os-release
 Tipe=$NAME
 clear
 echo -e "$y-------------------------------------------------$wh"
-echo -e " \e[1;34mPublic IP   \e[0m: $MYIP"
+echo -e " \e[1;34mPublic IP123   \e[0m: $MYIP"
 echo -e " \e[1;34mCountry     \e[0m: $LOC"
 echo -e " \e[1;34mOS Name     \e[0m: $Tipe"
 echo -e " \e[1;34mTotal RAM   \e[0m: ${totalram}MB"
